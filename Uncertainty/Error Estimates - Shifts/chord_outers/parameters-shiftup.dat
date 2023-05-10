@@ -1,0 +1,36 @@
+# parameters.dat
+#
+# Distance from Sun tC galactic center (kpc). Velocity of LSR (km/s).
+# Solar apex velocity (km/s) and its galactic longitude and latitude (degrees)
+# Program assumes that apex velocity is between 0 and 90 degrees galactic longitude
+P 8.0 220 13 55 20
+#
+# Chord method: Galactic Longitudes between 0 and 270 degrees
+# glong (degrees), radius (light years), observed doppler shift (km/s), error in velocity (km/s)
+#
+C  80 29645  -47.7 30
+C  85 30030  -51.3 30
+C 103 31570  -57.6 31
+C 114 32340  -54.0 31
+C 131 32725  -47.5 30
+C 151 33110  -30.2 28
+C 210 35805  +48.4 26
+C 221 36190  +62.7 26
+C 235 37730  +73.9 27
+C 240 39270  +74.5 27
+# CYG
+C  46 31768  -64.2 27
+C  52 33710  -70.8 22
+C  58 34970  -75.5 20
+C  70 36327  -78.3 17
+C  80 37171  -82.4 30
+C  85 36740  -82.0 29
+C 103 41000 -100.8 29
+C 114 42470  -98.6 29
+C 131 41850  -91.8 30
+C 210 45875  +66.8 23
+C 221 47402  +79.2 24
+C 235 51088 +100.5 24
+C 240 53129 +101.9 24
+#
+# do not return after this line
